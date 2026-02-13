@@ -1,0 +1,35 @@
+{
+  "users": {
+    "_id": "user_id",
+    "name": "string",
+    "email": "string",
+    "address": "string",
+    "createdAt": "timestamp"
+  },
+
+  "products": {
+    "_id": "product_id",
+    "name": "string",
+    "description": "string",
+    "price": "number",
+    "category": "string",
+    "stock": "number",
+    "createdAt": "timestamp"
+  },
+
+  "orders": {
+    "_id": "order_id",
+    "userId": "user_id",
+    "items": [
+      {
+        "productId": "product_id",
+        "name": "string",
+        "price": "number",
+        "quantity": "number"
+      }
+    ],
+    "totalAmount": "number",
+    "status": "Pending | Shipped | Delivered",
+    "createdAt": "timestamp"
+  }
+}
