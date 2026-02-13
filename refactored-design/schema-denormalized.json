@@ -1,0 +1,19 @@
+{
+  "orders": {
+    "_id": "order_id",
+    "userId": "user_id",
+    "userRegion": "string",
+    "items": [
+      {
+        "productId": "product_id",
+        "productName": "string",
+        "category": "string",
+        "price": "number",
+        "quantity": "number"
+      }
+    ],
+    "totalAmount": "number",
+    "status": "string",
+    "createdAt": "timestamp"
+  }
+}
