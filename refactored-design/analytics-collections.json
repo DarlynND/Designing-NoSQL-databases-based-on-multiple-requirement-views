@@ -1,0 +1,16 @@
+{
+  "product_sales_summary": {
+    "productId": "product_id",
+    "productName": "string",
+    "category": "string",
+    "totalUnitsSold": "number",
+    "totalRevenue": "number",
+    "lastUpdated": "timestamp"
+  },
+
+  "daily_sales": {
+    "date": "YYYY-MM-DD",
+    "totalOrders": "number",
+    "totalRevenue": "number"
+  }
+}
